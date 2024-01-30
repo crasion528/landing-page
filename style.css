@@ -1,0 +1,43 @@
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.top p, .header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.bottom, button {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.reference {
+    font-weight: 900;
+    text-align: right;
+}
+
