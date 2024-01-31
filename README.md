@@ -1,3 +1,5 @@
 # landing-page
 
 This project will be to create a landing page with the knowledge I have learned in HTML and CSS currently. I will be applying flexbox concepts that I have recently learned as well.
+
+After completing I realized I had a strong understanding of the HTML structure and could set it up top to bottom with minimal effort. Of course I came back and added neccessary div containers as needed. Git add,push,commit was very clear to me while making the index file and I was able to keep a clear thought process. However, when I started the CSS, I thought I had a clear thought structure from the HTML but as I bounced around from thing to thing I realized even if I made a commit I was so confused about the order I did things in. Although I understand the concepts of CSS and can accomplish the task, I have a hard time of being able to mentally build a fluid top to bottom code structure with it.
