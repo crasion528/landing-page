@@ -20,7 +20,7 @@ h1 {
     color: #F9FAF8;
 }
 
-.top p, .header a {
+.top p, .header, a {
     font-size: 18px;
     color: #E5E7EB;
 }
