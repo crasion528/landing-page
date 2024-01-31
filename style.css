@@ -1,5 +1,8 @@
+* {
+    /* outline: 1px solid red; */
+}
+
 body {
-    outline: 1px solid red;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -48,20 +51,140 @@ h2 {
 .author {
     font-weight: 900;
     text-align: right;
+    margin-top: 0;
 }
 
 li {
     list-style: none;
+    
 }
 
 .header {
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 ul {
     display: flex;
     gap: 1rem;
     margin-left: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    gap: 1rem;
+}
+
+.topimg {
+    display: flex;
+    flex-shrink: 1;
+}
+
+button {
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.topbutton {
+    border: none;
+}
+
+.bottombutton {
+    border: 2px solid white;
+    margin-right: 50px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.middlecontent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.quote {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrap {
+    max-width: 200px;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.bottomtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+    color: white;
+}
+
+h1, h3{
+   margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.bottomtext p {
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.middle img {
+    width: 150px;
+    height: 150px;
+}
+
+.quote p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote > p:nth-child(1) {
+    margin-bottom: 0;
 }
